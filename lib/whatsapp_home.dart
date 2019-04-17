@@ -5,7 +5,7 @@ import 'package:flutterwhatsapp/pages/chat_screen.dart';
 import 'package:flutterwhatsapp/pages/status_screen.dart';
 
 class WhatsAppHome extends StatefulWidget {
-  var cameras;
+  final cameras;
   WhatsAppHome(this.cameras);
 
   @override
